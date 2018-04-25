@@ -1,9 +1,10 @@
 {
     "huobi": {
+        "huobi_api": "api.huobipro.com",
         "access_key": "",
         "secretkey": "",
         "account_id": "",
-        "account_id_pro": "replace_me",
-        "trade_password": "replace_me"
+        "account_id_pro": "",
+        "trade_password": ""
     }
 }
