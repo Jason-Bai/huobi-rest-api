@@ -9,7 +9,9 @@ const getAccount = async () => {
 
   const path = '/v1/account/accounts';
 
-  const params = U.getParams(method, path);
+  const body = U.getRequestBody();
+
+  const params = U.getParams(method, path, body);
 
   const url = `${path}?${params}`;
 
